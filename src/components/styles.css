@@ -173,8 +173,123 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 20px 0px;
-    background-color: #e0e0e0;
+    background-color: #37ab3c;
     max-width: 100%;
     max-height: auto;
 }
 
+.image-grid-bottom-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cater-form-container {
+    background-color: white;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    gap: 20px;
+}
+
+.cater-form-container h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #37ab3c;
+    /* gap: 20px; */
+}
+
+.cater-form-container a {
+    text-decoration: none;
+    color: rgb(109, 255, 119);
+    font-weight: bold;
+}
+
+.cater-form-container a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+.careers-container {
+    background-color: rgba(255, 255, 255, 0.905);
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    gap: 20px;
+}
+
+.careers-container h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #37ab3c;
+    /* gap: 20px; */
+}
+
+.careers-container a {
+    text-decoration: none;
+    color: rgb(109, 255, 119);
+    font-weight: bold;
+}
+
+.careers-container a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+.socials-container {
+    max-width: 100%;
+    background-color: #37ab3c;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.socials-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px 0px;
+    max-width: 50%;
+    max-height: auto;
+    gap: 0px;
+    justify-items: center;
+    align-items: center;
+}
+
+.socials-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#instagram-button {
+    border-radius: 100%;
+    width: 60px;
+    height: 60px; /* Always Make sure to match the dimensions of the div element to the img. */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37ab3c;
+}
+
+#instagram-button img {
+    width: 50px;
+    height: 50px;
+}
+
+.footer-container {
+    background-color: #2e8b2f;
+    color: black;
+    text-align: center;
+    padding: 50px;
+    font-size: 14px;
+}
