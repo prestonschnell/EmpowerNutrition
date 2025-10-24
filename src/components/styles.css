@@ -1,0 +1,130 @@
+.nav-bar-container {
+    background-color: #37ab3c;
+    padding: 75px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    max-height: 100%;
+    max-width: 100%;
+    font-size: large;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+.nav-bar-container ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar-container ul li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.nav-buttons-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-buttons-left ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-logo-div {
+    border-radius: 100%;
+    border: 2px solid rgb(30, 140, 0);
+    width: 250px;
+    height: 250px; /* Always Make sure to match the dimensions of the div element to the img. */
+    overflow: hidden;
+}
+#nav-logo-div img {
+    height: 250px;
+    width: auto;
+}
+
+.nav-buttons-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-buttons-right ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-container {
+    background-image: url('../assets/fruits.jpeg');
+    height: 200px;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-text-overlay {
+    height: auto;
+    width: auto;
+    background-color: white;
+    color: black;
+    display: inline-block;
+    padding: 20px;
+    /* border-radius: 10px; */
+}
+
+#hero-text-overlay p {
+    margin: 0;
+    font-size: large;
+}
+
+.order-container {
+    background-color: white;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-container h1 {
+    margin: 0;
+    font-size: 36px;
+    color: rgb(30, 140, 0);
+}
+
+.order-container button {
+    background-color: #37ab3c;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.order-container button:hover {
+    background-color: #2e8b2f;
+}
+
+.image-grid-top-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px 0px;
+    background-color: #37ab3c;
+}
+
+.image-grid-top-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
