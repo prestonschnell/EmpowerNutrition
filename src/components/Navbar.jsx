@@ -7,9 +7,9 @@ const Navbar = () => {
     <div className='nav-bar-container'>
         <div className="nav-buttons-left">
             <ul>
-                <li><a href="/About">About</a></li>
-                <li><a href="/Order">Order Online</a></li>
-                <li><a href="/Cater">Catering</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/order">Order</a></li>
             </ul>
         </div>
         <div id="nav-logo-div">
@@ -18,8 +18,8 @@ const Navbar = () => {
         
         <div className="nav-buttons-right">
             <ul>
-                <li><a href="/Careers">Work With Us</a></li>
-                <li><a href="/Gifts">Gift Cards</a></li>
+                <li><a href="/cater">Catering</a></li>
+                <li><a href="/careers">Careers</a></li>
                 <li><a href="/Contact">Contact Us</a></li>
             </ul>
         </div>

@@ -2,14 +2,15 @@
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.jsx';
 
-const CaterPage = () => {
+const ContactPage = () => {
   return (
     <div>
       <Navbar />
-      <p>This is the Catering Form</p>
-      <Footer/>
+        <p>This is the Contact Page</p>
+    <Footer/>
+
     </div>
   )
 }
 
-export default CaterPage;
+export default ContactPage

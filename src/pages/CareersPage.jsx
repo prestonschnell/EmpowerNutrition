@@ -2,14 +2,14 @@
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.jsx';
 
-const CaterPage = () => {
+const CareersPage = () => {
   return (
     <div>
       <Navbar />
-      <p>This is the Catering Form</p>
-      <Footer/>
+        <p>This is the Careers Page</p>
+    <Footer/>
     </div>
   )
 }
 
-export default CaterPage;
+export default CareersPage
