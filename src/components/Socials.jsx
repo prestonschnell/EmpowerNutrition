@@ -24,9 +24,9 @@ const Socials = () => {
         <img src={Image8} alt="" />
         </div>
         <div>
-            <button id="instagram-button">
+            <a id="instagram-button" href="https://www.facebook.com/EmpowerNutritionLLC/" target="_blank" rel="noreferrer">
                 <img src={Facebook} alt="" />
-            </button>
+            </a>
         </div>
     </div>
   )
