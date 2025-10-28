@@ -6,8 +6,8 @@ import Order from '../components/Order.jsx';
 
 import ImageGridTop from '../components/ImageGridTop.jsx'
 import Menu from '../components/Menu.jsx'
-import menuFront from '../assets/menu-front-bird.png'
-import menuBack from '../assets/menu-back-bird.png'
+import menuFront from '../assets/template.jpg'
+import menuBack from '../assets/template2.jpg'
 import QNA from '../components/QNA.jsx'
 import ImageGridBottom from '../components/ImageGridBottom.jsx'
 import CaterForm from '../components/CaterForm.jsx'
