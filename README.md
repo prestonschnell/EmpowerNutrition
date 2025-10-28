@@ -23,6 +23,6 @@ This project represents a full-cycle freelance engagement—from client consulta
 
 
 ## Demo
-- **[Demo](./src/assets/empower_version_01.gif)**
+![Live Preview](./src/assets/empower_version_01.gif)**
 
 
