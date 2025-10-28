@@ -1,5 +1,5 @@
 ## Overview
-This is a fully responsive, multi-page website built for Empower Nutrition, a local small business specializing in healthy drinks and meal options. The project was developed from scratch using HTML, CSS, and JavaScript, with a focus on clean design, accessibility, and seamless user experience.
+This is a fully responsive, multi-page website built for Empower Nutrition, a local small business specializing in healthy drinks and meal options. The project was developed from scratch using React, with a focus on clean design, accessibility, and seamless user experience.
 
 The website includes the following capabilities:
 
