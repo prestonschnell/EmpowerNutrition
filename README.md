@@ -19,8 +19,6 @@ The website includes the following capabilities:
 
 🧩 Modular, maintainable code structured for scalability and future enhancements
 
-This project represents a full-cycle freelance engagement—from client consultation and design planning to front-end implementation and optimization.
-
 
 ## Demo
 ![Live Preview](./src/assets/empower_version_01.gif)**
